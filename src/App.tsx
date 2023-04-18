@@ -10,7 +10,12 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => navigate("/form")}>go to form</button>
+      <button onClick={() => navigate("/form")}>
+        Composition Pattern example
+      </button>
+      <button onClick={() => navigate("/counter")}>
+        Container-Presentational Component Pattern example
+      </button>
     </div>
   );
 }
