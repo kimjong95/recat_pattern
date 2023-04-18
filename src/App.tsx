@@ -16,6 +16,9 @@ function App() {
       <button onClick={() => navigate("/counter")}>
         Container-Presentational Component Pattern example
       </button>
+      <button onClick={() => navigate("/toggle")}>
+        Compound Component Pattern
+      </button>
     </div>
   );
 }
