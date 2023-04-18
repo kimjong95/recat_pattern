@@ -1,6 +1,6 @@
 import { useCallback, useMemo } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { count } from "./Counter.store";
+import { count } from "./counter.store";
 
 export function useCounterHooks() {
   //

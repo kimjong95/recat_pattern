@@ -1,5 +1,5 @@
 import { useRecoilState } from "recoil";
-import { count } from "./Counter.store";
+import { count } from "./counter.store";
 
 export function CounterButton() {
   //

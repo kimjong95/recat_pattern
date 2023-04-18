@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import { count } from "./Counter.store";
+import { count } from "./counter.store";
 
 export function Count() {
   //
